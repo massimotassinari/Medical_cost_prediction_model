@@ -98,7 +98,7 @@ def main():
                 # Check the prediction value and show the appropriate image and animation
                 if prediction[0] < 13270.422265141257:
                     st.markdown(
-                    f"<h1 style='text-align: center; color: green; font-size: 50px;'>"
+                    f"<h1 style='text-align: center; color: green; font-size: 45px;'>"
                     f"${prediction[0]:,.2f}</h1>",
                     unsafe_allow_html=True
                 )
@@ -107,7 +107,7 @@ def main():
                     st.balloons()  # Show balloons if the prediction is good
                 else:
                     st.markdown(
-                    f"<h1 style='text-align: center; color: red; font-size: 50px;'>"
+                    f"<h1 style='text-align: center; color: red; font-size: 45px;'>"
                     f"${prediction[0]:,.2f}</h1>",
                     unsafe_allow_html=True
                     )
