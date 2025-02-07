@@ -43,7 +43,7 @@ def main():
     # Define the Streamlit app
     center_title("Insurance Prediction App")
     # Add a picture at the top
-    st.image('./media/insurance.jpg', use_column_width=True)
+    st.image('./media/insurance.jpg')
 
     # Create two larger columns with equal width
     col1, col2 = st.columns([3, 2])  # Adjust column proportions as needed
