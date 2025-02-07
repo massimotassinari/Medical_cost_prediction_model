@@ -28,8 +28,8 @@ def center_header(header):
 
 def model(input_data):
     # Load the scaler and model
-    scaler = load('scaler.joblib')
-    loaded_model = load('insurance_model.joblib')
+    scaler = load('./saved_model/scaler.joblib')
+    loaded_model = load('./saved_model/insurance_model.joblib')
 
     # Apply the same transformation to input data
     input_data = scaler.transform(input_data)

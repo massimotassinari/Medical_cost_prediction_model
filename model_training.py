@@ -60,8 +60,8 @@ def main():
     #np.mean(df['charges'])
 
     # Save both the scaler and the model
-    dump(scaler, 'project/scaler.joblib')
-    dump(grid_model,'project/insurance_model.joblib')
+    dump(scaler, './saved_model/scaler.joblib')
+    dump(grid_model,'./saved_model/insurance_model.joblib')
 
     # Loading the model
     #loaded_model = load('insurance_model.joblib')
