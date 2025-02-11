@@ -6,6 +6,7 @@ from sklearn.model_selection import GridSearchCV
 from sklearn.metrics import mean_absolute_error,mean_squared_error
 from joblib import dump,load
 
+
 def main():
     # Reading CVS
     DATASET_PATH = 'project/insurance.csv'
