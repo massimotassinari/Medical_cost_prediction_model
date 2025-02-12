@@ -64,8 +64,8 @@ def main():
             with st.expander('Calculate your BMI'):
                 # User inputs
   
-                weight = st.number_input("Enter your weight (kg):", min_value=1, step=1, format="%d")
-                height = st.number_input("Enter your height (cm):", min_value=1, step=1, format="%d")
+                weight = st.number_input("Enter your weight (kg):", min_value=30, step=1, format="%d")
+                height = st.number_input("Enter your height (cm):", min_value=100, step=1, format="%d")
 
                 # Calculate BMI when the button is pressed
                 if st.button("Calculate BMI"):
@@ -154,10 +154,10 @@ def main():
             with col3:
                 pass
 
-        with st.expander('Lets see an example'):
-	        st.write("""
-		insert a multi element container that can be expanded or colapsed 
-		by the user """)
+        #with st.expander('Lets see an example'):
+	        #st.write("""
+		#insert a multi element container that can be expanded or colapsed 
+		#by the user """)
             
 
 st.markdown('---')
