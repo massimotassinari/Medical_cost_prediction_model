@@ -60,7 +60,7 @@ def main():
 
             # Collect user input for model parameters
             age = st.slider("Age", min_value=18, max_value=100, value=19)
-            bmi = st.slider("BMI", min_value=10.0, max_value=60.0, value=27.9, step=0.1)
+            bmi = st.slider("BMI", min_value=12.0, max_value=60.0, value=27.9, step=0.1)
             with st.expander('Calculate your BMI'):
                 # User inputs
   
