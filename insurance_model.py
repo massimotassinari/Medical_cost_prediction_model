@@ -64,8 +64,8 @@ def main():
             with st.expander('Calculate your BMI'):
                 # User inputs
   
-                weight = st.number_input("Enter your weight (kg):", min_value=1, step=1, format="%d")
-                height = st.number_input("Enter your height (cm):", min_value=1, step=1, format="%d")
+                weight = st.number_input("Enter your weight (kg):", min_value=30, step=1, format="%d")
+                height = st.number_input("Enter your height (cm):", min_value=100, step=1, format="%d")
 
                 # Calculate BMI when the button is pressed
                 if st.button("Calculate BMI"):
