@@ -154,10 +154,10 @@ def main():
             with col3:
                 pass
 
-        with st.expander('Lets see an example'):
-	        st.write("""
-		insert a multi element container that can be expanded or colapsed 
-		by the user """)
+        #with st.expander('Lets see an example'):
+	        #st.write("""
+		#insert a multi element container that can be expanded or colapsed 
+		#by the user """)
             
 
 st.markdown('---')
